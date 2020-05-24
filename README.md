@@ -1,5 +1,5 @@
 # DenoRentApp
-This sample application covers basic use of Deno in real time applications.
+This sample application covers basic use of Deno in real life applications.
 
 Use cases covered-
 
