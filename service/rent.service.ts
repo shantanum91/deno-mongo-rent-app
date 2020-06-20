@@ -2,7 +2,7 @@ import { Tenant } from "./../model/tenant.ts";
 import { Injectable, Inject } from "https://deno.land/x/alosaur/src/mod.ts";
 import { NoTenantError } from "../error/no.tenant.error.ts";
 import {  TenantDB } from "../repository/tenant.db.ts";
-import { Database } from "https://deno.land/x/mongo@v0.7.0/ts/database.ts";
+import { Database } from "https://deno.land/x/mongo@v0.8.0/ts/database.ts";
 @Injectable()
 export class RentService {
 

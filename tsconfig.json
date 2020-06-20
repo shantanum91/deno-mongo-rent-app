@@ -1,5 +1,11 @@
 {
     "compilerOptions": {
-        "experimentalDecorators": true
+        "experimentalDecorators": true,
+        "plugins": [
+            {
+                "name": "typescript-deno-plugin",
+                "importmap": "import_map.json"
+            }
+        ]
     }
 }
