@@ -4,7 +4,7 @@ import {
   Inject,
   Post,
   Body,
-} from "https://deno.land/x/alosaur/src/mod.ts";
+} from "https://deno.land/x/alosaur@v0.21.2/mod.ts";
 import { RentService } from "../service/rent.service.ts";
 
 @Controller("/tenant")

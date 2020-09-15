@@ -1,4 +1,4 @@
-import { App } from "https://deno.land/x/alosaur/src/mod.ts";
+import { App } from "https://deno.land/x/alosaur@v0.21.2/mod.ts";
 import { HomeArea } from "./area/home.area.ts";
 
 const PORT = 8080;

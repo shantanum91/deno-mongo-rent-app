@@ -1,5 +1,5 @@
-import { Injectable } from "https://deno.land/x/alosaur/src/mod.ts";
-import { MongoClient, Database } from "https://deno.land/x/mongo@v0.8.0/mod.ts";
+import { Injectable } from "https://deno.land/x/alosaur@v0.21.2/mod.ts";
+import { MongoClient, Database } from "https://deno.land/x/mongo@v0.12.1/mod.ts";
 
 @Injectable()
 export class TenantDB {
