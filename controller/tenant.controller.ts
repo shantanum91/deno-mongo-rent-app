@@ -15,11 +15,17 @@ export class TenantController {
     this.rentService = rentService;
   }
 
+  // Request format : {"name":"myname", "rent":10000}
+  // Send Content-Type: application-json
   @Post("")
-  public async creteTenant(
-    @Body() tenant: Tenant,
-  ) {
-    console.log("here");
-    await this.rentService.createTenant(tenant);
+  public async creteTenant(@Body() tenant: Tenant) {
+    try {
+      console.log("here", tenant);
+      await this.rentService.createTenant(tenant);
+      return "Success";
+    } catch (e) {
+      console.error(e);
+      return "Failure";
+    }
   }
 }
